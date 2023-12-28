@@ -73,3 +73,42 @@ img{
     font-weight: bold;
     font-size: 14px;
 }
+
+
+.informationHeaderText{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pictures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.individualPicture{
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    inline-size: 160px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+p{
+    text-align: center;
+}
+
+.bodyButton{
+    padding: 75px;
+    background-color: white;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 16px;
+    border-width: medium;
+}
