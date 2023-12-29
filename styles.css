@@ -101,14 +101,39 @@ img{
 }
 
 p{
+    margin-top: 3px;
     text-align: center;
 }
 
 .bodyButton{
     padding: 75px;
+    margin-bottom: 3px;
     background-color: white;
     border-color: #3882F6;
     border-style: solid;
     border-radius: 16px;
     border-width: medium;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 150px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.quoteText{
+    font-weight: 100;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quoteSignature{
+    margin-left: auto;
+    font-weight: bolder;
+    font-size: 20px;
 }
